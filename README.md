@@ -33,7 +33,7 @@ some_list = []
 def impure(arg):
     some_list.append(arg)
 ```
-> Powyższa finkcja nie jest finkcją czystą poniewaz zmienia ona stan listy `some_list`
+> Powyższa funkcja nie jest funkcją czystą ponieważ zmienia ona stan listy `some_list`
 
 Używanie czystych funkcji ma zarówno zalety, jak i wady.
 Czyste funkcje są:
@@ -116,7 +116,7 @@ for i in countdown():
 ```
 >Instrukcja `yield` służy do zdefiniowania generatora, zastępując powrót funkcji, aby dostarczyć wynik do wywołującego bez niszczenia lokalnych zmiennych.
 
-Ze względu na to, że przetważają po jednym elemencie, generatory nie mają ograniczeń dotyczących list pamięci.
+Ze względu na to, że przetwarzają po jednym elemencie, generatory nie mają ograniczeń dotyczących list pamięci.
 W rzeczywistości mogą być nieskończone!
 ```Python
 def infinite_sevens():
@@ -171,7 +171,7 @@ def print_text2():
 print_text2()
 ```
 ### Rekurencja
-Jest to bardzo ważna koncepcja w frogramowaniu funkcyjnym. Podstawą rekurencji jest samoodniesienie przez woływanie siebie.
+Jest to bardzo ważna koncepcja w programowaniu funkcyjnym. Podstawą rekurencji jest samoodniesienie przez wywoływanie siebie.
 klasycznym przykładem rekurencji jest wyznaczanie silni.
 ```Python
 def factorial(x):
@@ -197,7 +197,7 @@ print(is_even(23))
 print(is_odd(17))
 ```
 ### Zbiory
-Zbiory są strukturami danych podobnymi do list lub słowników. Są tworzone przy uzyciu nawiasów klamrowych lub przy pomocy funkcji `set`. Mają one pewne funkcjonalności jak listy, tj.sprawdzanie czy zawierają konkretny przedmiot.
+Zbiory są strukturami danych podobnymi do list lub słowników. Są tworzone przy użyciu nawiasów klamrowych lub przy pomocy funkcji `set`. Mają one pewne funkcjonalności jak listy, tj. sprawdzanie czy zawierają konkretny przedmiot.
 ```Python
 num_set = {1, 2, 3, 4, 5}
 world_set = set(["spam", "eggs"])
@@ -247,23 +247,23 @@ print(list(permutations(letters)))
 ## Zadania do wykonania
 :one: Wypróbuj kod z _listingów_ znajdujących się w instrukcji i sprawdź ich działanie.
 
-:two: Napisz funkcję z wykożystaniem wyrażenia _lambda_ która dla przyjętego argumentu `x` wyznaczy listę kwardatów kolejnych liczb naturalnych od `1` do `x`
+:two: Napisz funkcję z wykorzystaniem wyrażenia _lambda_ która dla przyjętego argumentu `x` wyznaczy listę kwadratów kolejnych liczb naturalnych od `1` do `x`
 
-:three: Z podanej poniżej listy odfiltruj elementy które są większe od 4 wykożystując funkcję `filter`.
+:three: Z podanej poniżej listy odfiltruj elementy które są większe od 4 wykorzystując funkcję `filter`.
 ```Python
 [1, 2, 3, 5, 8, 3, 0, 7]
 ```
 
-:four: Napisz funkcję z wykożystaniem generatora która wygeneruje poniższe elementy listy
+:four: Napisz funkcję z wykorzystaniem generatora która wygeneruje poniższe elementy listy
 ```Python
 ['s', 'sp', 'spa', 'spam']
 ```
 
 :five: Napisz funkcję obliczającą dowolne równanie a następnie napisz funkcję dekorującą która przed wynikiem wstawi pierwotny wzór funkcji.
 
-:six: Napisz rekurencyjną funkcję przyjmującą 2 paramety która z podanych wartości obliczy wartość symbolu Newtona.
+:six: Napisz rekurencyjną funkcję przyjmującą 2 parametry która z podanych wartości obliczy wartość symbolu Newtona.
 
-:seven: Naisz funkcję w której przetestujesz wszystkie omawiane operacje na zbiorach.
+:seven: Napisz funkcję w której przetestujesz wszystkie omawiane operacje na zbiorach.
 
 ## :exclamation: zadania 2-7 mają zostać dodane na GitHuba :exclamation:
 ![Python](https://images82.fotosik.pl/1051/0eb69ffaec5e9574med.jpg)
