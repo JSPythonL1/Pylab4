@@ -16,7 +16,7 @@ print(apply_twice(add_five, 10))
 >Funkcja __apply_twice__ przyjmuje inną funkcję jako argument i wywołuje ją dwukrotnie wewnątrz.
 
 ### Czyste funkcje
-Programowanie funkcjonalne ma na celu wykorzystanie czystych funkcji. czyste funkcje nie mają skutków ubocznych i zwracają wartość, która zależy tylko od ich argumentów.
+Programowanie funkcyjne ma na celu wykorzystanie czystych funkcji. czyste funkcje nie mają skutków ubocznych i zwracają wartość, która zależy tylko od ich argumentów.
 tak działają funkcje matematyczne: dla przykładu `cos (x)` dla tej samej wartości `x`, zawsze zwracają ten sam wynik
 poniżej są przykłady funkcji czystych i nieczystych
 
