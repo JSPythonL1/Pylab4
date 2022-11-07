@@ -159,7 +159,7 @@ decorated()
 Zdefiniowaliśmy funkcję o nazwie `decor`, która ma jeden parametr `func`. Wewnątrz dekoru zdefiniowaliśmy zagnieżdżoną funkcję o nazwie `wrap`.
 Funkcja `wrap` wypisuje ciąg znaków, wywołuje `func()` i wypisuje kolejny ciąg znaków. Funkcja `decor` zwraca funkcję `wrap` jako jej wynik.
 Można powiedzieć, że zmienna `decorated` to dekorowana wersja `print_text` - to `print_text` plus coś.
-W rezultacie jeśli napiszemy użytecznego dekoratora moglibyśmy chcieć zastąpić `print_text` całkowicie dekorowaną wersją, więc zawsze mamy naszą wersję `print_text` wzbogaconą o coś nowego.
+W rezultacie, jeśli napiszemy użytecznego dekoratora moglibyśmy chcieć zastąpić `print_text` całkowicie dekorowaną wersją, więc zawsze mamy naszą wersję `print_text` wzbogaconą o coś nowego.
 
 Dostawcy Python wspierają opakowywanie funkcji w dekoratorze poprzez oczekiwanie na definicję funkcji za pomocą nazwy dekoratora i symbolu _@_.
 Jeśli definiujemy funkcję, możemy ją ozdobić za pomocą symbolu _@_
