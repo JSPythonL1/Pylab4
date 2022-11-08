@@ -208,7 +208,7 @@ print("spam" not in world_set)
 Zbiory różnią się od list na kilka sposobów, ale umożliwiają kilka operacji dozwolonych na listach, takich jak `len`.
 Są nieuporządkowane, co oznacza, że nie można ich indeksować.
 Nie mogą zawierać duplikatów elementów.
-Ze względu na sposób ich przechowywania sprawdzenie, czy element jest częścią zbioru, jest szybsze od sprawdzenia czy jest on częścią listy.
+Ze względu na sposób ich przechowywania sprawdzenie czy element jest częścią zbioru, jest szybsze od sprawdzenia czy jest on częścią listy.
 Zamiast użycia `append` do dodania do zbioru używa się metody `add`.
 Metoda `remove` usuwa określony element ze zbioru, `pop` usuwa dowolny element.
 ```Python
