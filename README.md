@@ -259,7 +259,7 @@ print(list(permutations(letters)))
 ['s', 'sp', 'spa', 'spam']
 ```
 
-:five: Napisz funkcję obliczającą dowolne równanie a następnie napisz funkcję dekorującą która przed wynikiem wstawi pierwotny wzór funkcji.
+:five: Napisz funkcję obliczającą dowolne równanie a następnie napisz funkcję dekorującą która przed wynikiem wstawi nazwę wywoływanej funkcji z jej parametrami wejściowymi.
 
 :six: Napisz rekurencyjną funkcję przyjmującą 2 parametry która z podanych wartości obliczy wartość symbolu Newtona.
 
