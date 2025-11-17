@@ -247,23 +247,44 @@ print(list(permutations(letters)))
 ## Zadania do wykonania
 :one: Wypróbuj kod z _listingów_ znajdujących się w instrukcji i sprawdź ich działanie.
 
-:two: Napisz funkcję z wykorzystaniem wyrażenia _lambda_ która dla przyjętego argumentu `x` wyznaczy listę kwadratów kolejnych liczb naturalnych od `1` do `x`
+:two: Napisz funkcję z wykorzystaniem wyrażenia _lambda_ która, dla przyjętego argumentu `x` wyznaczy listę kwadratów kolejnych liczb naturalnych od `1` do `x` (włącznie).
 
-:three: Z podanej poniżej listy odfiltruj elementy które są większe od 4 wykorzystując funkcję `filter`.
+:three: Napisz funkcję która, z podanej poniżej listy odfiltruj elementy które, są większe od 4 wykorzystując funkcję `filter`.
 ```Python
 [1, 2, 3, 5, 8, 3, 0, 7]
 ```
 
-:four: Napisz funkcję z wykorzystaniem generatora która wygeneruje poniższe elementy listy
+:four: Napisz funkcję z wykorzystaniem generatora która, wygeneruje poniższe elementy listy ze słowa `spam`.
 ```Python
 ['s', 'sp', 'spa', 'spam']
 ```
 
-:five: Napisz funkcję obliczającą dowolne równanie a następnie napisz funkcję dekorującą która przed wynikiem wstawi nazwę wywoływanej funkcji z jej parametrami wejściowymi.
+:five: Napisz funkcję obliczającą dowolne równanie matematyczne oraz dekorator, któy:
+- przed wynikiem wstawi nazwę wywoływanej funkcji,
+- oraz wypisze wartości argumentów, jakie przyjmuje.
 
-:six: Napisz rekurencyjną funkcję przyjmującą 2 parametry która z podanych wartości obliczy wartość symbolu Newtona.
+_Przykład wywołania funkcji 'add(2,3)'_
+```Python
+add (2, 3)
+```
 
-:seven: Napisz funkcję w której przetestujesz wszystkie omawiane operacje na zbiorach.
+:six: Napisz rekurencyjną funkcję liczącą symbol Newtona:
+
+Newton(n, k) = n! / (k! (n-k)!)
+
+Zastosuj definicję rekurencyjną:
+- Newton(n, 0) = 1
+- Newton(n, n) = 1
+- Newton(n, k) = Newton(n-1, k-1) + Newton(n-1, k)
+
+
+:seven: Napisz funkcję, która demonstruje wszystkie operacje na zbiorach:
+- suma,
+- część wspólna,
+- różnica,
+- różnica symetryczna.
+
+Funkcja powinna zwrócić słownik z wynikami wszystkich operacji.
 
 ## :exclamation: zadania 2-7 mają zostać dodane na GitHuba :exclamation:
 ![Python](https://images82.fotosik.pl/1051/0eb69ffaec5e9574med.jpg)
